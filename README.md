@@ -8,6 +8,9 @@
   <li>CSS</li>
 </ul>
 
+<h3>Responsive:</h3>
+<p>Puede adaptarse tanto a desktop como a mobile.</p>
+
 <h3>Instalación:</h3>
 <ol>
   <li>Clona el repositorio</li>
