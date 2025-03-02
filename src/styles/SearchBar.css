@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: white;
+}
+
+.header-collection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.samy-logo {
+    width: 100px;
+    top: 0;
+    left: 0;
+}
+
+.search-input {
+    width: 14%;
+    padding: 0px 20px 0px 20px;
+    font-size: 0.8rem;
+    border-radius: 40px;
+    border: transparent;
+    background-color: rgb(238, 238, 238);
+    color: grey;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: grey;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        position: relative;
+        background-color: white;
+    }
+
+    .header-collection {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .samy-logo {
+        width: 80px;
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+
+    .search-input {
+        padding: 10px;
+        width: 50%;
+        bottom: 0;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,21 @@
+.main {
+    width: 100%;
+    background-color: #efefef;
+}
+
+.image-list {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+    justify-items: center;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .image-list {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+}
