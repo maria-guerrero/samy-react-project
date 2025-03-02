@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maria-guerrero/samy-react-project/static/css/main.d725ce4b.css",
+    "main.js": "/maria-guerrero/samy-react-project/static/js/main.5436b144.js",
+    "index.html": "/maria-guerrero/samy-react-project/index.html",
+    "main.d725ce4b.css.map": "/maria-guerrero/samy-react-project/static/css/main.d725ce4b.css.map",
+    "main.5436b144.js.map": "/maria-guerrero/samy-react-project/static/js/main.5436b144.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d725ce4b.css",
+    "static/js/main.5436b144.js"
+  ]
+}
